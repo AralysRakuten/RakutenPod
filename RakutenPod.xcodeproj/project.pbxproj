@@ -10,6 +10,12 @@
 		8923357425C2FE61009BC00B /* RakutenPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8923356A25C2FE61009BC00B /* RakutenPod.framework */; };
 		8923357925C2FE61009BC00B /* RakutenPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923357825C2FE61009BC00B /* RakutenPodTests.swift */; };
 		8923357B25C2FE61009BC00B /* RakutenPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 8923356D25C2FE61009BC00B /* RakutenPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892335AA25C2FEC5009BC00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892335A925C2FEC5009BC00B /* AppDelegate.swift */; };
+		892335AC25C2FEC5009BC00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892335AB25C2FEC5009BC00B /* SceneDelegate.swift */; };
+		892335AE25C2FEC5009BC00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892335AD25C2FEC5009BC00B /* ViewController.swift */; };
+		892335B125C2FEC5009BC00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892335AF25C2FEC5009BC00B /* Main.storyboard */; };
+		892335B325C2FEC6009BC00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892335B225C2FEC6009BC00B /* Assets.xcassets */; };
+		892335B625C2FEC6009BC00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892335B425C2FEC6009BC00B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		8923357325C2FE61009BC00B /* RakutenPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RakutenPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8923357825C2FE61009BC00B /* RakutenPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenPodTests.swift; sourceTree = "<group>"; };
 		8923357A25C2FE61009BC00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892335A725C2FEC5009BC00B /* RakutenPodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakutenPodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		892335A925C2FEC5009BC00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		892335AB25C2FEC5009BC00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		892335AD25C2FEC5009BC00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		892335B025C2FEC5009BC00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892335B225C2FEC6009BC00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		892335B525C2FEC6009BC00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892335B725C2FEC6009BC00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		892335A425C2FEC5009BC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				8923356C25C2FE61009BC00B /* RakutenPod */,
 				8923357725C2FE61009BC00B /* RakutenPodTests */,
+				892335A825C2FEC5009BC00B /* RakutenPodExamples */,
 				8923356B25C2FE61009BC00B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				8923356A25C2FE61009BC00B /* RakutenPod.framework */,
 				8923357325C2FE61009BC00B /* RakutenPodTests.xctest */,
+				892335A725C2FEC5009BC00B /* RakutenPodExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				8923357A25C2FE61009BC00B /* Info.plist */,
 			);
 			path = RakutenPodTests;
+			sourceTree = "<group>";
+		};
+		892335A825C2FEC5009BC00B /* RakutenPodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				892335A925C2FEC5009BC00B /* AppDelegate.swift */,
+				892335AB25C2FEC5009BC00B /* SceneDelegate.swift */,
+				892335AD25C2FEC5009BC00B /* ViewController.swift */,
+				892335AF25C2FEC5009BC00B /* Main.storyboard */,
+				892335B225C2FEC6009BC00B /* Assets.xcassets */,
+				892335B425C2FEC6009BC00B /* LaunchScreen.storyboard */,
+				892335B725C2FEC6009BC00B /* Info.plist */,
+			);
+			path = RakutenPodExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = 8923357325C2FE61009BC00B /* RakutenPodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		892335A625C2FEC5009BC00B /* RakutenPodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892335B825C2FEC6009BC00B /* Build configuration list for PBXNativeTarget "RakutenPodExamples" */;
+			buildPhases = (
+				892335A325C2FEC5009BC00B /* Sources */,
+				892335A425C2FEC5009BC00B /* Frameworks */,
+				892335A525C2FEC5009BC00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RakutenPodExamples;
+			productName = RakutenPodExamples;
+			productReference = 892335A725C2FEC5009BC00B /* RakutenPodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					8923357225C2FE61009BC00B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					892335A625C2FEC5009BC00B = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				8923356925C2FE61009BC00B /* RakutenPod */,
 				8923357225C2FE61009BC00B /* RakutenPodTests */,
+				892335A625C2FEC5009BC00B /* RakutenPodExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892335A525C2FEC5009BC00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892335B625C2FEC6009BC00B /* LaunchScreen.storyboard in Resources */,
+				892335B325C2FEC6009BC00B /* Assets.xcassets in Resources */,
+				892335B125C2FEC5009BC00B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		892335A325C2FEC5009BC00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892335AE25C2FEC5009BC00B /* ViewController.swift in Sources */,
+				892335AA25C2FEC5009BC00B /* AppDelegate.swift in Sources */,
+				892335AC25C2FEC5009BC00B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = 8923357525C2FE61009BC00B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		892335AF25C2FEC5009BC00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892335B025C2FEC5009BC00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		892335B425C2FEC6009BC00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892335B525C2FEC6009BC00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8923357C25C2FE61009BC00B /* Debug */ = {
@@ -422,6 +519,44 @@
 			};
 			name = Release;
 		};
+		892335B925C2FEC6009BC00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBK84SXMKQ;
+				INFOPLIST_FILE = RakutenPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CaptainYoyo.RakutenPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892335BA25C2FEC6009BC00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBK84SXMKQ;
+				INFOPLIST_FILE = RakutenPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CaptainYoyo.RakutenPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +583,15 @@
 			buildConfigurations = (
 				8923358225C2FE61009BC00B /* Debug */,
 				8923358325C2FE61009BC00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892335B825C2FEC6009BC00B /* Build configuration list for PBXNativeTarget "RakutenPodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892335B925C2FEC6009BC00B /* Debug */,
+				892335BA25C2FEC6009BC00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
